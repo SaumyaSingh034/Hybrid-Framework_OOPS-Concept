@@ -31,7 +31,7 @@ public abstract class BasePage {
 	
 	public abstract void waitForVisibilityOfPageTitle(String title);
 	
-	public <TPage extends BaseTestClass> TPage getInstance(Class<TPage> pageClass)
+	public <TPage extends BasePageClass> TPage getInstance(Class<TPage> pageClass)
 	{
 		try {
 			return pageClass.getDeclaredConstructor(WebDriver.class).newInstance(this.driver);

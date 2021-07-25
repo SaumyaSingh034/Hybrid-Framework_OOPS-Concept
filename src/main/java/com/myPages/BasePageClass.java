@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class BaseTestClass extends BasePage {
+public class BasePageClass extends BasePage {
 
-	public BaseTestClass(WebDriver driver) {
+	public BasePageClass(WebDriver driver) {
 		super(driver);
 
 	}
