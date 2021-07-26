@@ -20,6 +20,10 @@ public class DashBoardPage extends BasePageClass{
 	/**
 	 * @return the mainMenuItems
 	 */
+	public String titleOfPage()
+	{
+		return driver.getTitle();
+	}
 	public Integer getMainMenuItems() {
 		List<WebElement> items = driver.findElements(mainMenuItems);
 		return items.size();

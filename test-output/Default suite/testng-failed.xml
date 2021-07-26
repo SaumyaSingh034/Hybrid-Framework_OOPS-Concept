@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginPageTest">
+      <class name="com.myTestCases.DashBoardPageTest">
         <methods>
-          <include name="checkForgetLink"/>
           <include name="setUp"/>
+          <include name="printDashBoardItems"/>
           <include name="tearDown"/>
+          <include name="getTitleOfPage"/>
+          <include name="printNameOfMainMenuItems"/>
+          <include name="printCountOfMainMenuItems"/>
         </methods>
-      </class> <!-- LoginPageTest -->
+      </class> <!-- com.myTestCases.DashBoardPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

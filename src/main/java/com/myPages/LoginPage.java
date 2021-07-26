@@ -62,11 +62,14 @@ public class LoginPage extends BasePageClass {
 		return getPageTitle();
 	}
 	
-	public DashBoardPage loginWithValidCredentials(String user, String pwd)
+	public DashBoardPage loginWithValidCredentials(String user, String pwd) throws InterruptedException
 	{
 		getUsername().sendKeys(user);
+		Thread.sleep(9000);
 		getPassword().sendKeys(pwd);
+		Thread.sleep(9000);
 		getLoginBtn().click();
+		Thread.sleep(9000);
 		return getInstance(DashBoardPage.class);
 	}
 	
