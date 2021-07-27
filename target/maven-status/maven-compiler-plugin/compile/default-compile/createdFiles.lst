@@ -1,0 +1,5 @@
+com\myPages\LoginPage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\myPages\BasePage.class
+com\myPages\BasePageClass.class
+com\myPages\DashBoardPage.class
